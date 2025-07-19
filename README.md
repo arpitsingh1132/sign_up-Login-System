@@ -1,6 +1,8 @@
 🔐 SignUp/Login System using PHP & MySQL
 A secure and responsive SignUp/Login system built using PHP, MySQL, HTML, CSS, and JavaScript with particle animations and a modern dark teal-themed UI. It includes essential features like password hashing, session handling, and error validation.
 
+
+
 🚀 Features
 ✅ User registration with unique email and username
 
@@ -16,12 +18,16 @@ A secure and responsive SignUp/Login system built using PHP, MySQL, HTML, CSS, a
 
 ✅ MySQL database integration
 
+
+
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript (canvas animation)
 
 Backend: PHP
 
 Database: MySQL
+
+
 
 📁 Folder Structure
 pgsql
@@ -36,6 +42,8 @@ Edit
 ├── dashboard.php
 ├── style.css
 └── db.sql
+
+
 🗃️ Database Setup
 Open phpMyAdmin or any MySQL client.
 
@@ -53,6 +61,9 @@ CREATE TABLE IF NOT EXISTS users (
     email VARCHAR(100) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL
 );
+
+
+
 🧪 How to Run Locally
 Install XAMPP or Laragon.
 
@@ -63,6 +74,8 @@ Start Apache and MySQL.
 Access http://localhost/your-folder-name/signUp.html to register.
 
 Login using login.html.
+
+
 
 
 📌 Notes
